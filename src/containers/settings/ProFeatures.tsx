@@ -76,7 +76,7 @@ export default class ProFeatures extends ApiComponent<
                     }}
                     title={
                         <div style={{}}>
-                            <b>CapRover PRO</b>&nbsp;&nbsp;
+                            <b>Athena PRO</b>&nbsp;&nbsp;
                             <CrownTwoTone twoToneColor="#c27b00" />
                         </div>
                     }
@@ -110,7 +110,7 @@ export default class ProFeatures extends ApiComponent<
         return (
             <div>
                 <p>
-                    Upgrade to <b>CapRover PRO</b> to take advantage of premium
+                    Upgrade to <b>Athena PRO</b> to take advantage of premium
                     features!
                 </p>
                 <ul>

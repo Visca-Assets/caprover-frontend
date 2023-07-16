@@ -76,7 +76,7 @@ export default class Login extends ApiComponent<RouteComponentProps<any>, any> {
                         transform: 'translate(-50%,-50%)',
                     }}
                 >
-                    <Card title="CapRover Login" style={{ width: 380 }}>
+                    <Card title="Athena Login" style={{ width: 380 }}>
                         <NormalLoginForm
                             onLoginRequested={(
                                 password: string,

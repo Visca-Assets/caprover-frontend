@@ -173,12 +173,12 @@ export default class Deployment extends ApiComponent<
                     Use CLI deploy command. This is the easiest method as it
                     only requires a simply command like{' '}
                     <code>caprover deploy</code>. Read more about it in{' '}
-                    <NewTabLink url="https://caprover.com/docs/get-started.html#step-4-deploy-the-test-app">
+                    <NewTabLink url="https://visca.ai/docs/get-started.html#step-4-deploy-the-test-app">
                         the docs
                     </NewTabLink>
                     . If you're using CI/CD to run <code>caprover deploy</code>{' '}
                     and you do not wish to use your password, you can use{' '}
-                    <NewTabLink url="https://caprover.com/docs/ci-cd-integration.html#app-tokens">
+                    <NewTabLink url="https://visca.ai/docs/ci-cd-integration.html#app-tokens">
                         app-specific tokens
                     </NewTabLink>
                     .
@@ -269,7 +269,7 @@ export default class Deployment extends ApiComponent<
                 <p>
                     Enter your repository information in the form and save. Then
                     copy the URL in the box as a webhook on Github, Bitbucket,
-                    Gitlab and etc. Once you push a commit, CapRover starts a
+                    Gitlab and etc. Once you push a commit, Athena starts a
                     new build.
                     <br />
                 </p>

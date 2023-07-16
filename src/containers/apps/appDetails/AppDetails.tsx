@@ -181,7 +181,7 @@ class AppDetails extends ApiComponent<
                     </p>
                     <p className={allVolumes.length ? '' : 'hide-on-demand'}>
                         Please select the volumes you want to delete. Note that
-                        if any of the volumes are being used by other CapRover
+                        if any of the volumes are being used by other Athena
                         apps, they will not be deleted even if you select them.{' '}
                         <b>Note: </b>deleting volumes takes more than 10
                         seconds, please be patient
@@ -252,7 +252,7 @@ class AppDetails extends ApiComponent<
                                             the original container deletion was
                                             done with a delay. Please consult
                                             the{' '}
-                                            <NewTabLink url="https://caprover.com/docs/persistent-apps.html#removing-persistent-apps">
+                                            <NewTabLink url="https://visca.ai/docs/persistent-apps.html#removing-persistent-apps">
                                                 documentation
                                             </NewTabLink>{' '}
                                             and delete them manually if needed.

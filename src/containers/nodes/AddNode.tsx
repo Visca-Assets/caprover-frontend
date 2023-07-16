@@ -72,7 +72,7 @@ export default class AddNode extends Component<
                         <Col lg={{ span: 11 }} xs={{ span: 24 }}>
                             <Input
                                 style={{ marginBottom: 10 }}
-                                addonBefore="CapRover IP Address"
+                                addonBefore="Athena IP Address"
                                 placeholder="123.123.123.123"
                                 type="text"
                                 value={nodeToAdd.captainIpAddress}
@@ -188,7 +188,7 @@ export default class AddNode extends Component<
                     <Collapse>
                         <Collapse.Panel header="Alternative Method" key="1">
                             <p>
-                                CapRover uses SSH to connect to your nodes and
+                                Athena uses SSH to connect to your nodes and
                                 have them join the cluster. Sometimes, this
                                 process does not work due to non standard SSH
                                 configs such as custom ports, custom usernames,

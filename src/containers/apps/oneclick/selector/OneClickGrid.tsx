@@ -179,7 +179,7 @@ export default class OneClickGrid extends Component<
                             <div style={{ paddingTop: 30 }}>
                                 What if the app/database I want is not listed
                                 here? &nbsp;
-                                <NewTabLink url="https://caprover.com/docs/one-click-apps.html#what-about-other-apps">
+                                <NewTabLink url="https://visca.ai/docs/one-click-apps.html#what-about-other-apps">
                                     <InfoCircleOutlined />
                                 </NewTabLink>
                             </div>

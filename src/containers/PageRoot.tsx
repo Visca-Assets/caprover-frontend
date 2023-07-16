@@ -214,7 +214,7 @@ class PageRoot extends ApiComponent<
                                                     marginRight: 10,
                                                 }}
                                             />
-                                            CapRover
+                                            Athena
                                             {self.createUpdateAvailableIfNeeded()}
                                         </h3>
                                     </div>
@@ -234,7 +234,7 @@ class PageRoot extends ApiComponent<
                                                 marginRight: 70,
                                             }}
                                         >
-                                            <NewTabLink url="https://caprover.com">
+                                            <NewTabLink url="https://visca.ai">
                                                 Docs
                                             </NewTabLink>
                                         </span>
@@ -323,7 +323,7 @@ class PageRoot extends ApiComponent<
                                         role="menuitem"
                                         style={{ paddingLeft: 24 }}
                                     >
-                                        <NewTabLink url="https://caprover.com">
+                                        <NewTabLink url="https://visca.ai">
                                             <FileTextOutlined />
                                             Docs
                                         </NewTabLink>

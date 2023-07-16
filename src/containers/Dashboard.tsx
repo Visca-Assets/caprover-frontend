@@ -120,7 +120,7 @@ export default class Dashboard extends ApiComponent<
                         content: (
                             <div>
                                 <p>
-                                    CapRover uses{' '}
+                                    Athena uses{' '}
                                     <NewTabLink url="https://letsencrypt.org/">
                                         Let&#39;s Encrypt
                                     </NewTabLink>{' '}
@@ -296,24 +296,24 @@ export default class Dashboard extends ApiComponent<
         return (
             <Row justify="center">
                 <Col xs={{ span: 23 }} lg={{ span: 16 }}>
-                    <Card title="CapRover Root Domain Configurations">
+                    <Card title="Athena Root Domain Configurations">
                         <div>
                             <p>
-                                The very first thing that CapRover needs is a
+                                The very first thing that Athena needs is a
                                 root domain. For example, if you own{' '}
                                 <i>myawesomecompany.com</i>, you can use{' '}
                                 <i>captain.myawesomecompany.com</i> or{' '}
                                 <i>foo.bar.myawesomecompany.com</i> as your root
                                 domain. First, you need to make sure that the ip
                                 address for all subdomains of the root domain
-                                resolve to the CapRover ip address. To do this,
+                                resolve to the Athena ip address. To do this,
                                 go to the DNS settings in your domain provider
                                 website, and set a wild card A entry.
                                 <br /> For example: <b> Type:</b> <u>A</u>,{' '}
                                 <b>Name (or host):</b> <u>*.caprover-root</u>,
                                 <b> IP (or Points to):</b>{' '}
                                 <u>110.120.130.140</u> where this is the IP
-                                address of your CapRover machine.
+                                address of your Athena machine.
                             </p>
                             <p>
                                 <i>
@@ -395,7 +395,7 @@ export default class Dashboard extends ApiComponent<
         return (
             <Row justify="center">
                 <Col xs={{ span: 23 }} lg={{ span: 16 }}>
-                    <Card title="CapRover Initial Setup">
+                    <Card title="Athena Initial Setup">
                         <div>
                             <h3>
                                 Congratulations!{' '}
@@ -404,13 +404,13 @@ export default class Dashboard extends ApiComponent<
                                 </span>
                             </h3>
                             <p>
-                                <b /> You have installed CapRover successfully!{' '}
+                                <b /> You have installed Athena successfully!{' '}
                                 <b>
                                     But you still need to assign a domain and
                                     finish the HTTPS setup to fully set up
-                                    CapRover!{' '}
+                                    Athena!{' '}
                                 </b>
-                                You can set up your CapRover instance in two
+                                You can set up your Athena instance in two
                                 ways:
                             </p>
 
@@ -450,7 +450,7 @@ export default class Dashboard extends ApiComponent<
         return (
             <Row justify="center">
                 <Col xs={{ span: 23 }} lg={{ span: 16 }}>
-                    <Card title="CapRover">
+                    <Card title="Athena">
                         <div>
                             <h3>
                                 Congratulations!{' '}
@@ -459,9 +459,9 @@ export default class Dashboard extends ApiComponent<
                                 </span>
                             </h3>
                             <p>
-                                You have installed and set CapRover up
+                                You have installed and set Athena up
                                 successfully! You can now deploy your apps!
-                                Remember, with CapRover, you can deploy
+                                Remember, with Athena, you can deploy
                                 applications from source code (such as Node.js,
                                 PHP, Java, Ruby, Python etc), and you can also
                                 deploy ready to go applications such as MySQL,
@@ -473,7 +473,7 @@ export default class Dashboard extends ApiComponent<
                                 applications from source code, make sure to have
                                 a look at our
                                 <a
-                                    href="https://caprover.com/docs/sample-apps.html"
+                                    href="https://visca.ai/docs/sample-apps.html"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >

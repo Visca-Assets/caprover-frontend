@@ -1,10 +1,10 @@
-# Frontend App for CapRover
+# Frontend App for Athena
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Development
 
-Run CapRover backend service in debug mode. Change `.env.development` to match your backend. Then run `yarn start`
+Run Athena backend service in debug mode. Change `.env.development` to match your backend. Then run `yarn start`
 
 > **Note**: To create a simple backend API in debug mode, you can use [Play with Docker](https://labs.play-with-docker.com/). Just simply run the following commands and you'll be set:
 >
@@ -19,7 +19,7 @@ Run CapRover backend service in debug mode. Change `.env.development` to match y
 >
 > Then click on Open Port button and get the URL for port `3000`, it should be something like this (make sure to remove trailing slash): `http://ip172-18-0-76-abcdef123456-3000.direct.labs.play-with-docker.com`
 
-We strive to keep CapRover code base consistent. This will ensure a high level of consistency and lower maintenance load.
+We strive to keep Athena code base consistent. This will ensure a high level of consistency and lower maintenance load.
 
 ### Available Scripts
 
@@ -47,7 +47,7 @@ Your app is ready to be deployed!
 
 ## Theming
 
-CapRover's fronted supports dark and light modes. It is based on `antd` colour schemes. Therefore, all used `antd` components within the project support both modes by default. However if we implement a custom component or want to change some global colors some steps needs to be considered.
+Athena's fronted supports dark and light modes. It is based on `antd` colour schemes. Therefore, all used `antd` components within the project support both modes by default. However if we implement a custom component or want to change some global colors some steps needs to be considered.
 
 ### Implement Dark Mode in custom component
 
@@ -80,13 +80,13 @@ To override `antd` specific colors modify the according constant in `config-over
 
 ## Contribution
 
-Thanks for contributing to the frontend code! Since contributors list for CapRover automatically picks up the contributors from the main backend repo, please make a minor update the frontend commit in the dockerfile, so your name will get displayed on the main page as a contributor.
+Thanks for contributing to the frontend code! Since contributors list for Athena automatically picks up the contributors from the main backend repo, please make a minor update the frontend commit in the dockerfile, so your name will get displayed on the main page as a contributor.
 
 https://github.com/caprover/caprover/blob/master/dockerfile-captain.release#L18
 
 ## Learn More
 
-For more details and documentation, please visit [https://CapRover.com](https://caprover.com/)
+For more details and documentation, please visit [https://visca.ai](https://visca.ai/)
 
 ## Tests
 

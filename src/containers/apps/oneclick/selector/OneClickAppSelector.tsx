@@ -184,7 +184,7 @@ export default class OneClickAppSelector extends ApiComponent<
                                     One click apps are retrieved from the
                                     official{' '}
                                     <NewTabLink url="https://github.com/caprover/one-click-apps">
-                                        CapRover One Click Apps Repository{' '}
+                                        Athena One Click Apps Repository{' '}
                                     </NewTabLink>
                                     by default. You can add other public/private
                                     repositories if you want to.
